@@ -28,10 +28,7 @@ git clone https://github.com/yourusername/chat-frontend.git
 ```
 
 ### Install dependencies
-#### For backend
-```bash
-cd backend
-npm install
+
 ```
 
 #### For frontend
