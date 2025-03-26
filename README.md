@@ -14,7 +14,7 @@ A feature-rich real-time chat application where users can seamlessly communicate
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React
+- **Frontend:** React + Vite
 - **Backend:** Node.js (Express)
 - **Real-time communication:** Socket.io
 - **Notifications:** Twilio
@@ -23,8 +23,8 @@ A feature-rich real-time chat application where users can seamlessly communicate
 
 ### Clone the repository
 ```bash
-git clone https://github.com/yourusername/realtime-chat-app.git
-cd realtime-chat-app
+git clone https://github.com/yourusername/chat-frontend.git
+
 ```
 
 ### Install dependencies
@@ -40,21 +40,10 @@ cd frontend
 npm install
 ```
 
-### Environment Variables
-Create `.env` files in both `frontend` and `backend` directories and add the following:
-
-#### Backend `.env`
-```
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-TWILIO_ACCOUNT_SID=your_twilio_account_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_phone_number
-```
-
 #### Frontend `.env`
-```
-REACT_APP_BACKEND_URL=http://localhost:5000
+```bash
+VITE_BACKEND_URL=http://localhost:5000
+VITE_STREAM_API_KEY=your_stream_api_key_here
 ```
 
 ### Run the app
@@ -68,10 +57,10 @@ npm start
 #### Frontend
 ```bash
 cd frontend
-npm start
+npm run dev
 ```
 
-The app will now run at `http://localhost:3000`
+The app will now run at `http://localhost:5173`
 
 ## 📸 Screenshots
 
@@ -92,5 +81,4 @@ Contributions are welcome! Feel free to fork the repo and create a pull request.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
 
