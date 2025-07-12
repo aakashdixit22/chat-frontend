@@ -1,6 +1,3 @@
-Got it! Here's the **clean, final version** of your `README.md` for **ConnZen** — without any extra commentary or Markdown code blocks — just copy and paste directly into your `README.md` file:
-
----
 
 # 💬 ConnZen – Real-Time Chat Application
 
