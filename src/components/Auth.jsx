@@ -32,7 +32,7 @@ const Auth = () => {
 
         const {username, password, phoneNumber, avatarURL} = form;
         
-        const URL = "https://chat-backend-z8wm.onrender.com/auth";
+        const URL = `${import.meta.env.VITE_MESSENGER_BACKEND_URL}/auth`;
         const { data: { token, userId, hashedPassword, fullName} } = await axios.post(`${URL}/${isSignup ? "signup" : "login"}`, {
             username, password, fullName:form.fullName, phoneNumber, avatarURL
         });
