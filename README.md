@@ -28,10 +28,7 @@ git clone https://github.com/yourusername/chat-frontend.git
 ```
 
 ### Install dependencies
-#### For backend
-```bash
-cd backend
-npm install
+
 ```
 
 #### For frontend
@@ -46,25 +43,20 @@ VITE_BACKEND_URL=http://localhost:5000
 VITE_STREAM_API_KEY=your_stream_api_key_here
 ```
 
-### Run the app
 
-#### Backend
-```bash
-cd backend
-npm start
+
+
 ```
 
 #### Frontend
 ```bash
-cd frontend
+
 npm run dev
 ```
 
 The app will now run at `http://localhost:5173`
 
-## 📸 Screenshots
 
-_Add screenshots showcasing your app's features!_
 
 ## 🎯 Future Improvements
 
