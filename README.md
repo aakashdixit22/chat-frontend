@@ -1,76 +1,8 @@
-# Real-Time Chat App
+# React + Vite
 
-A feature-rich real-time chat application where users can seamlessly communicate, share files, and interact with messages.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-- **Real-time messaging** powered by Socket.io
-- **File sharing** (Images, PDFs, and Documents)
-- **Emoji reactions** to messages
-- **Edit & delete** messages
-- **Offline notifications** with Twilio SMS service
-- **Typing indicators**
-- **User online/offline status**
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React + Vite
-- **Backend:** Node.js (Express)
-- **Real-time communication:** Socket.io
-- **Notifications:** Twilio
-
-## 📁 Project Setup
-
-### Clone the repository
-```bash
-git clone https://github.com/yourusername/chat-frontend.git
-
-```
-
-### Install dependencies
-
-```
-
-#### For frontend
-```bash
-cd frontend
-npm install
-```
-
-#### Frontend `.env`
-```bash
-VITE_BACKEND_URL=http://localhost:5000
-VITE_STREAM_API_KEY=your_stream_api_key_here
-```
-
-
-
-
-```
-
-#### Frontend
-```bash
-
-npm run dev
-```
-
-The app will now run at `http://localhost:5173`
-
-
-
-## 🎯 Future Improvements
-
-- Group chats
-- Message read receipts
-- Push notifications
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repo and create a pull request.
-
-## 🧾 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

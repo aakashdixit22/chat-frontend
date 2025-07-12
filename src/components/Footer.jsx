@@ -48,10 +48,6 @@ export default function Footer() {
 
           
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://www.linkedin.com/in/aakash-dixit-72a276258/' role='button'>
-            <MDBIcon fab icon='linkedin-in' />
-          </MDBBtn>
-
           <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://github.com/aakashdixit22' role='button'>
             <MDBIcon fab icon='github' />
           </MDBBtn>
